@@ -3,7 +3,7 @@ pipeline {
 
   stages {
       stage('e2e Tests') {
-            step {
+            steps {
                    'cypress run'
                   }
              }
