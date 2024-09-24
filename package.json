@@ -1,0 +1,22 @@
+{
+  "name": "cypressproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress run": "npx cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "test",
+    "framework",
+    "e2e"
+  ],
+  "author": "Aashish",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.13.3"
+  }
+}
