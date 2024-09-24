@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   stages {
-      stages('e2e Tests') {
+      stage('e2e Tests') {
             steps {
                    'cypress run'
                   }
