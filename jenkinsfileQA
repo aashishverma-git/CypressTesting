@@ -1,7 +1,14 @@
 pipeline {
   agent any
 
+   tools (nodejs "nodejs18")
+
   stages {
+         stage('Dependencies') {
+            steps {
+                npm 'i'
+                  }
+}
       stage('e2e Tests') {
             steps {
                    npm 'cypress run'
