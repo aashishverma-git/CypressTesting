@@ -4,7 +4,7 @@ pipeline {
   stages {
       stage('e2e Tests') {
             steps {
-                   npx 'cypress run'
+                   npm 'cypress run'
                   }
              }
       }
