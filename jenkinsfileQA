@@ -5,10 +5,10 @@ pipeline {
 
      stages {
          stage('Dependencies') {
-                            steps {
-                               npm 'i'
-                                   }
-                               }
+                    steps {
+                       npm 'i'
+                         }
+                          }
       stage('e2e Tests') {
             steps {
                    npm 'cypress run'
