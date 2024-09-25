@@ -6,12 +6,12 @@ pipeline {
      stages {
          stage('Dependencies') {
                steps {
-                npm 'i'
+                cmd 'npm i'
                    }
             }
       stage('e2e Tests') {
             steps {
-                   npm 'cypress run'
+                   cmd 'cypress run'
                   }
              }
       }
