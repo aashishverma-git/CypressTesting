@@ -3,9 +3,11 @@ pipeline {
 
    tools {nodejs "nodejs22"}
 
+     stages {
       stage('e2e Tests') {
             steps {
                    npm 'cypress run'
                   }
              }
       }
+]
